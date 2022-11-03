@@ -2,7 +2,7 @@
   "name": "@taikonauten/transitionend",
   "version": "3.0.4",
   "description": "Simple transition end helper",
-  "main": "./index.ts",
+  "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
     "clean": "del-cli index.js index.d.ts",
