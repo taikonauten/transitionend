@@ -1,0 +1,11 @@
+################ https://raw.githubusercontent.com/github/gitignore/master/Global/macOS.gitignore
+
+.git
+.gitlab
+node_modules
+.*
+*.*
+!index.d.ts
+!index.js
+!README.md
+!package.json
