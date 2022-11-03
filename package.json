@@ -1,0 +1,36 @@
+{
+  "name": "@taikonauten/transitionend",
+  "version": "3.0.0",
+  "description": "Simple transition end helper",
+  "main": "./index.ts",
+  "types": "index.d.ts",
+  "scripts": {
+    "clean": "del-cli index.js index.d.ts",
+    "build": "npm run clean && tsc --project tsconfig.build.json",
+    "lint": "eslint ."
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taikonauten/transitionend.git"
+  },
+  "author": "Tobias Schubert <ts@taikonauten.com>",
+  "bugs": {
+    "url": "https://github.com/taikonauten/transitionend/issues"
+  },
+  "homepage": "https://github.com/taikonauten/transitionend",
+  "devDependencies": {
+    "@taikonauten/linters-js": "^1.1.0",
+    "@taikonauten/linters-typescript": "^1.2.0",
+    "@typescript-eslint/eslint-plugin": "^5.42.0",
+    "@typescript-eslint/parser": "^5.42.0",
+    "babel-eslint": "^10.1.0",
+    "css-loader": "^6.7.1",
+    "eslint": "^8.26.0",
+    "ts-loader": "^9.4.1",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "del-cli": "^5.0.0"
+  }
+}
